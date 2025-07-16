@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+    .brand-name{
+        /* font-size: 3rem; */
+        margin-bottom: 20px;
+    }
+    .nav-links{
+        font-size: 1.8rem;
+        
+        margin: 0 auto;
+    }
+}
