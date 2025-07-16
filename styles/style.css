@@ -27,7 +27,6 @@
     border: none;
     border-radius: 8px;
 }
-
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -35,7 +34,6 @@ main{
 main > section{
     margin-top: 130px;
 }
-
 
 
 
@@ -79,7 +77,6 @@ main > section{
     font-size: 4rem;
     font-weight: bold;
 }
-
 .banner-description , .feature-description{
     font-size: 1rem;
     color: var(--dark-03);
@@ -90,7 +87,6 @@ main > section{
 }
 
 /* teams and features styles */
-
 .teams{
     align-items: center;
 }
@@ -117,14 +113,36 @@ main > section{
     color: var(--primary-color);
 }
 
-
-
-
-.banner-description{
+.banner-description , .feature-description{
     font-size: 1rem;
     color: var(--dark-03);
+    margin-bottom: 32px;
 }
 .banner-image{
     width: 100%;
 }
-
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 75px;
+    max-width: 535px;
+}
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #131313;  /* dark 01 */
+    margin-bottom: 24px;
+}
+#quick-list{
+    color: var(--dark-03);
+    font-weight: 500;
+}
+#features{
+    color: var(--primary-color);
+}
