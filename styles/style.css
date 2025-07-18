@@ -161,3 +161,46 @@ main > section{
 .sponsors-container img {
     filter: grayscale(100%);
 }
+
+/* enjoy-features related style */
+.enjoy-features{
+    gap: 146px;
+}
+#enjoy-title-border{
+    border-left: 5px solid var(--primary-color);
+    padding-left: 20px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.feature-card .feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.features-img{
+    position: absolute;
+}
+.btn-features{
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 45px 42px;
+    position: relative;
+    top: 870px;
+    right: 92px;
+}
+.experience-year{
+    font-weight: bold;
+    font-size:4rem;
+}
+.experience-text{
+    font-weight: 500;
+    font-size: 1.56rem;
+}
