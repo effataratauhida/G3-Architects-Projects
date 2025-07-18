@@ -123,6 +123,7 @@ main > section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 100px;
+    margin-left: 100px;
 }
 .fact-card{
     border: 1px solid #FF900E;
@@ -147,3 +148,16 @@ main > section{
     margin-top: 10px;
 }
 
+/* our sponsor styles */
+.sponsors-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsors-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsors-container img {
+    filter: grayscale(100%);
+}
