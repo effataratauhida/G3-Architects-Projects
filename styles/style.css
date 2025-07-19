@@ -183,8 +183,9 @@ main > section{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.features-img{
-    position: absolute;
+
+.feature-img{
+    width: 100%;
 }
 .btn-features{
     background-color: var(--primary-color);
@@ -192,9 +193,8 @@ main > section{
     color: white;
     border: none;
     padding: 45px 42px;
-    position: relative;
-    top: 870px;
-    right: 92px;
+    margin-top: -120px;
+    margin-left: -95px;
 }
 .experience-year{
     font-weight: bold;
